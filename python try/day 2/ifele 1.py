@@ -14,3 +14,4 @@ if(income>7000):
     print("no eligible for scolership")
 else:
     print("eligible for scolership ")
+   
