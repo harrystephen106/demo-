@@ -22,3 +22,12 @@ else:
 # if a=15 and 15%5 and 15%3 => 0==0 and 0==0 => true and true => true
 # if a=12 and 12%5 and 12%3 => 2==0 and 0==0 => false and true =>false
 
+# program 3
+
+a=int(input("enter a number :"))
+if(a%2==0 ):
+    print("this is even")
+else:
+    print("this is odd")
+
+
