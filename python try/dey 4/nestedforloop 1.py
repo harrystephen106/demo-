@@ -22,8 +22,8 @@ for i in range(1,6):
 
 # program 3
 
-n = 5  # Number of rows
-for i in range(1, n + 1):  # Loop through each row
+n = 5                       # Number of rows
+for i in range(1, n + 1):   # Loop through each row
     for j in range(i):      # In each row, print 'i' stars
         print('*', end='')  # Print stars, stay in the same line
-    print()  # After each row, move to the next line
+    print()                 # After each row, move to the next line
