@@ -19,8 +19,11 @@ for i in range(1,6):
         print(j,end="")
     
 
+
 # program 3
-for i in range(1,6):
-    print()
-    for j in range(1,i+1):
-        print(j,end="")
+
+n = 5  # Number of rows
+for i in range(1, n + 1):  # Loop through each row
+    for j in range(i):      # In each row, print 'i' stars
+        print('*', end='')  # Print stars, stay in the same line
+    print()  # After each row, move to the next line
