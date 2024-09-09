@@ -14,7 +14,7 @@ print(a)              # it show tuple connot support any object to show
 # ex 3
 
 a=(1,2,3,4,5)
-b=list(a)
-b.pop(3)
+b=list(a)           # we casting the tuble object 
+b.pop(3)             # then pop the index values
 print(a)
 print(b)
