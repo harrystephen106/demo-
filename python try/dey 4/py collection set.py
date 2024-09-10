@@ -26,7 +26,7 @@ a.pop()                # if you type pop() only it delete first value only
 print(a)                # becouse set is un-ordered  
 
 # ex 5
-
+ 
 a={1,2,3,4,5}
 b={5,6,3,2}   
 a.update(b)

@@ -1,0 +1,2 @@
+def painter():
+    print("painting")
