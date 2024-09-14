@@ -17,3 +17,4 @@ dell.proc="i7"
 dell.ram="16gb"
 
 print(hp.prize)
+print(dell.prize)
