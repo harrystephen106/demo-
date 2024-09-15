@@ -31,7 +31,7 @@ class dad():
         print("dads money")
 
 class son1(dad):
-    pass
+    pass                 # the pass is empty class 
 
 class son2(dad):
     pass
