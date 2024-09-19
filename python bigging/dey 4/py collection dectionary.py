@@ -67,3 +67,11 @@ a={
 } 
 a.clear()                 # it used to clesr all the iteams in the dictionary
 print(a)
+
+# ex 5 
+a={
+    "name":"steve",
+    "age":20,
+    "students":["pattu","jaffin"]
+}
+print(a.get("age"))
