@@ -1,6 +1,6 @@
 import json
 
-jsonfile = json.load(open("data1.json"))
+jsonfile = json.load(open("json1.json"))
 
 word  = input("enter a word ")
 

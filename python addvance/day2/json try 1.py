@@ -25,8 +25,6 @@ print(b["name"])
 
 # ex3
 
-# ex 1
-
 import json
 a = """{"name":"steve","age":20}"""
 
@@ -48,3 +46,4 @@ a = {"key1":(10,20,30)}
 print(a)
 b = json.dumps(a)
 print(b)
+print(type(b))
